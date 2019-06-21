@@ -18,7 +18,6 @@ conda install -c bioconda picard=2.5.0
 ### somatic-sniper ver. 1.0.5.0
 conda install -c bioconda somatic-sniper=1.0.5.0
 
-
 ### varscan ver. 2.4.0
 conda install -c bioconda varscan=2.4.0
 
