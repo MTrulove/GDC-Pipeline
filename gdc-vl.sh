@@ -26,13 +26,13 @@ conda install -c bioconda GATK4=4.0.4.0
 
 ### samtools ver. 1.3.1
 wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2
-tar xaf samtools*
+tar xaf samtools-1.3.1.tar.bz2
 
 ### muSE ver. rc_submission_c039ffa
-wget -O /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
+wget /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
 
 ### GATK ver. 3.5-5 GDC ver. nightly-2016-02-25gf39d340
-conda install -c bioconda gatk-3.5-5
+conda install -c bioconda gatk=3.5-5
 
 ### dbSNP ver. 144
 conda install -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
