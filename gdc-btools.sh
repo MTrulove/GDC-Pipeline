@@ -1,4 +1,4 @@
-mkdir -p ~/.local/bin
+https://sourceforge.net/p/bio-bwa/mailman/message/35608412/mkdir -p ~/.local/bin
 dir=$(mktemp -d)
 cd "$dir"
 ### biobambam ver. 2.0.57
@@ -33,3 +33,8 @@ conda install -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
 
 ### reference genome - GRCh38.d1.vd1
 wget https://api.gdc.cancer.gov/data/254f697d-310d-4d7d-a27b-27fbf767a834
+tar xvf 254f697d-310d-4d7d-a27b-27fbf767a834
+
+### indexed reference genome - GRCh38.d1.vd1_BWA
+wget https://api.gdc.cancer.gov/data/25217ec9-af07-4a17-8db9-101271ee7225
+tar xvf 25217ec9-af07-4a17-8db9-101271ee7225
