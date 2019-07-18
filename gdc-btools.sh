@@ -6,17 +6,18 @@ conda create --name gdc
 source activate gdc
 
 ### biobambam ver. 2.0.57
-conda install -c bioconda biobambam=2.0.57
+conda install -y -c bioconda biobambam=2.0.57
 ### bwa ver. 0.7.15
-conda install -c bioconda  bwa=0.7.15
+conda install -y -c bioconda  bwa=0.7.15
 ### samtools ver. 1.1
-conda install -c bioconda samtools=1.1
+conda install -y -c bioconda samtools=1.1
 ### picard ver. 2.5.0
-conda install -c bioconda picard=2.5.0
+conda install -y -c bioconda picard=2.5.0
 ### somatic-sniper ver. 1.0.5.0
-conda install -c bioconda somatic-sniper=1.0.5.0
+conda install -y -c bioconda somatic-sniper=1.0.5.0
 ### varscan ver. 2.4.0
-conda install -c bioconda varscan=2.4.0
+conda install -y -c bioconda varscan=2.4.0
+
 ### GATK ver. 4.0.4.0
 conda install -c bioconda GATK4=4.0.4.0
 
