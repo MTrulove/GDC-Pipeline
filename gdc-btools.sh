@@ -35,10 +35,10 @@ make install
 # wget /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
 
 ### MuSE ver. 1.0
-conda install -c bioconda muse=1.0.rc
+conda install -y -c bioconda muse=1.0.rc
 
 ### GATK ver. 3.5-5 GDC ver. nightly-2016-02-25gf39d340
-conda install -c bioconda gatk=3.5-5
+conda install -y -c bioconda gatk=3.5
 
 ### dbSNP ver. 144
 conda install -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
