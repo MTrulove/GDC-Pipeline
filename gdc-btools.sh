@@ -41,7 +41,8 @@ conda install -y -c bioconda muse=1.0.rc
 conda install -y -c bioconda gatk=3.5
 
 ### dbSNP ver. 144
-conda install -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
+# FIXME: does not work
+# conda install -y -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
 
 ### reference genome - GRCh38.d1.vd1
 wget https://api.gdc.cancer.gov/data/254f697d-310d-4d7d-a27b-27fbf767a834
