@@ -20,7 +20,8 @@ conda install -y -c bioconda somatic-sniper=1.0.5.0
 conda install -y -c bioconda varscan=2.4.0
 
 ### GATK ver. 4.0.4.0
-conda install -c bioconda GATK4=4.0.4.0
+# only used in tumor-only workflow
+# conda install -y -c bioconda GATK4=4.0.4.0
 
 ### samtools ver. 1.3.1
 wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2
