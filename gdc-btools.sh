@@ -1,4 +1,4 @@
-https://sourceforge.net/p/bio-bwa/mailman/message/35608412/mkdir -p ~/.local/bin
+#https://sourceforge.net/p/bio-bwa/mailman/message/35608412/mkdir -p ~/.local/bin
 dir=$(mktemp -d)
 cd "$dir"
 ### biobambam ver. 2.0.57
