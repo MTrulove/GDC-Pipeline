@@ -21,11 +21,13 @@ wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1
 tar xaf samtools*
 tar xaf samtools-1.3.1.tar.bz2
 
-### muSE ver. rc_submission_c039ffa
+### muSE ver. rc_submission_c039ffa -dockerized version used by GDC
 wget /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
 
-### GATK ver. 3.5-5 GDC ver. nightly-2016-02-25gf39d340
+### MuSE ver. 1.0
+conda install -c bioconda muse=1.0.rc
 
+### GATK ver. 3.5-5 GDC ver. nightly-2016-02-25gf39d340
 conda install -c bioconda gatk=3.5-5
 
 ### dbSNP ver. 144
