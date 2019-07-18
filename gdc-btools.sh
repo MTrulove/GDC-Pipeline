@@ -25,8 +25,11 @@ conda install -y -c bioconda varscan=2.4.0
 
 ### samtools ver. 1.3.1
 wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2
-tar xaf samtools*
 tar xaf samtools-1.3.1.tar.bz2
+cd samtools-1.3.1
+./configure --prefix=$CONDA_PREFIX
+make
+make install
 
 ### muSE ver. rc_submission_c039ffa -dockerized version used by GDC
 wget /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
