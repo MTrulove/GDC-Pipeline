@@ -1,6 +1,10 @@
 #https://sourceforge.net/p/bio-bwa/mailman/message/35608412/mkdir -p ~/.local/bin
 dir=$(mktemp -d)
 cd "$dir"
+
+conda create --name gdc
+source activate gdc
+
 ### biobambam ver. 2.0.57
 conda install -c bioconda biobambam=2.0.57
 ### bwa ver. 0.7.15
