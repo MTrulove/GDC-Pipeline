@@ -44,10 +44,14 @@ conda install -y -c bioconda gatk=3.5
 # FIXME: does not work
 # conda install -y -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
 
+cd -
+mkdir references
+cd references
+
 ### reference genome - GRCh38.d1.vd1
-wget https://api.gdc.cancer.gov/data/254f697d-310d-4d7d-a27b-27fbf767a834
-tar xvf 254f697d-310d-4d7d-a27b-27fbf767a834
+wget https://api.gdc.cancer.gov/data/254f697d-310d-4d7d-a27b-27fbf767a834 -O GRCh38.d1.vd1.fa.tar.gz
+tar xvf GRCh38.d1.vd1.fa.tar.gz
 
 ### indexed reference genome - GRCh38.d1.vd1_BWA
-wget https://api.gdc.cancer.gov/data/25217ec9-af07-4a17-8db9-101271ee7225
-tar xvf 25217ec9-af07-4a17-8db9-101271ee7225
+wget https://api.gdc.cancer.gov/data/25217ec9-af07-4a17-8db9-101271ee7225 -O GRCh38.d1.vd1_BWA.tar.gz
+tar xvf GRCh38.d1.vd1_BWA.tar.gz
