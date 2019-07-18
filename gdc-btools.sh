@@ -32,7 +32,7 @@ make
 make install
 
 ### muSE ver. rc_submission_c039ffa -dockerized version used by GDC
-wget /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
+# wget /opt/bin/MuSEv1.0rc http://bioinformatics.mdanderson.org/Software/MuSE/MuSEv1.0rc_submission_c039ffa
 
 ### MuSE ver. 1.0
 conda install -c bioconda muse=1.0.rc
