@@ -11,6 +11,7 @@ conda install -y -c bioconda biobambam=2.0.57
 conda install -y -c bioconda  bwa=0.7.15
 ### samtools ver. 1.1
 conda install -y -c bioconda samtools=1.1
+mv $CONDA_PREFIX/bin/samtools $CONDA_PREFIX/bin/samtools-1.1
 ### picard ver. 2.5.0
 conda install -y -c bioconda picard=2.5.0
 ### somatic-sniper ver. 1.0.5.0
