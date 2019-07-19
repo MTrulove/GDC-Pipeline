@@ -38,11 +38,13 @@ make install
 conda install -y -c bioconda muse=1.0.rc
 
 ### GATK ver. 3.5-5 GDC ver. nightly-2016-02-25gf39d340
-conda install -y -c bioconda gatk=3.5
+#FIXME: does not give GenomeAnalysis.tk file due to licensing
+#conda install -y -c bioconda gatk=3.5
+
 
 ### dbSNP ver. 144
-# FIXME: does not work
-# conda install -y -c bioconda bioconductor-snplocs.hsapiens.dbsnp144.grch38
+wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/
+
 
 cd -
 mkdir references
