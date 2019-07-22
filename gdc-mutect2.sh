@@ -1,0 +1,1 @@
+java -jar GenomeAnalysisTK.jar -T MuTect2 -R <reference> -L <region> -I:tumor <tumor.bam> -I:normal <normal.bam> --normal_panel <pon.vcf> --cosmic <cosmic.vcf> --dbsnp <dbsnp.vcf> --contamination_fraction_to_filter 0.02 -o <mutect_variants.vcf> --output_mode EMIT_VARIANTS_ONLY --disable_auto_index_creation_and_locking_when_reading_rods
