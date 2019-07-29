@@ -1,0 +1,210 @@
+{
+    "0246823f-99f4-4a46-b2b1-27f81179584c": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/a12f12d9-c493-486f-a23d-95c724d6390c/C440.TCGA-CG-4438-10A-01D-1158-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/a3e15107-2503-4370-9ce0-0fe1e947e659/C440.TCGA-CG-4438-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "05ce16d4-a999-491a-91ad-9449a57228ff": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/049d4942-68f9-4b1b-92e0-3d47d4ca503a/C440.TCGA-BR-6457-10A-01D-1800-08.3_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/2918736b-3134-4dd7-93a7-9762dea51840/C440.TCGA-BR-6457-01A-21D-1800-08.3_gdc_realn.bam"
+    },
+    "117eb38b-0c62-4336-a866-fa5bd013256a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/150bf28f-256a-47b6-b51a-59b5d7a5780c/C440.TCGA-BR-4279-11A-01D-1126-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/194981c5-0f29-4c86-bdc8-2413326547e3/C440.TCGA-BR-4279-01A-01D-1126-08.2_gdc_realn.bam"
+    },
+    "131fb0f0-e0af-431c-8462-f1925a5f4c72": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/cc36e5f4-0cd4-41ff-b60a-bd42b900ed73/C440.TCGA-HU-8610-10A-01D-2394-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/974b7a1d-73f4-4ada-a355-0a9e60c289cd/C440.TCGA-HU-8610-01A-22D-2394-08.2_gdc_realn.bam"
+    },
+    "18d0aae7-9694-4252-b8fe-16e62dadab07": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/7a7f0e9d-184f-48f6-867f-2d20354ce705/C440.TCGA-CG-4477-10A-01D-1158-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/eabf02df-9bac-4d3b-9611-3c236f54707c/C440.TCGA-CG-4477-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "1d43af3c-4279-4aed-9ced-ce3896a48ae0": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/9127922f-6199-42c8-853c-bd161363840c/C440.TCGA-FP-7735-10A-01D-2053-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/1dc1ed37-833f-4d33-bce9-01ad33e9572c/C440.TCGA-FP-7735-01A-11D-2053-08.2_gdc_realn.bam"
+    },
+    "1f505ffa-b551-44a5-8813-c44c2bfcb4d5": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/3ecdd337-b2cd-4dd0-89ed-fe5f6d4d5850/C440.TCGA-VQ-A8PS-10A-01D-A413-08.4_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/03133291-a848-4b27-988b-176b2b01a28f/C440.TCGA-VQ-A8PS-01A-11D-A410-08.4_gdc_realn.bam"
+    },
+    "263b18e1-5722-4650-b16b-dac1961a3af8": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/f9dcc385-5dd8-4822-ba70-25412abe2647/C440.TCGA-D7-A6EZ-10A-01D-A31J-08.3_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/05105d6c-e877-4743-8fce-b280be4e9219/C440.TCGA-D7-A6EZ-01A-11D-A31L-08.3_gdc_realn.bam"
+    },
+    "264b781d-122b-433d-80d4-59fbec262f22": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/038d4b36-aa97-4cec-9f77-f423d4c57519/C440.TCGA-BR-8291-10A-01D-2340-08.7_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/4f8c062d-163d-43b7-9eff-212ee26f1a6a/C440.TCGA-BR-8291-01A-11D-2340-08.4_gdc_realn.bam"
+    },
+    "29ed984c-74b5-4016-a649-c32e5d1d9869": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/be9f05c7-b8f4-4b29-baab-c43da272f127/C440.TCGA-BR-4361-11A-01D-1158-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/df153596-c826-452f-bae9-c65787d111a9/C440.TCGA-BR-4361-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "2a665611-2464-4fef-8ce8-17c966fc74a5": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/54c20858-992d-434b-bc0e-e97ef214e1b8/C440.TCGA-IN-A6RJ-10A-21D-A33W-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/c2864a54-b68e-4b9a-ab99-b33adb7497dd/C440.TCGA-IN-A6RJ-01A-21D-A33T-08.1_gdc_realn.bam"
+    },
+    "32b44138-64e2-4bbf-aa2f-93a3b07ec670": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/950d2695-247b-4b02-a36f-4164f5cd359b/C440.TCGA-D7-A4YU-10A-01D-A25E-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/457fc005-d7db-4b7d-b90a-2f6d129b55a9/C440.TCGA-D7-A4YU-01A-21D-A25D-08.1_gdc_realn.bam"
+    },
+    "3c3d4ef0-019a-423e-89b2-4ac5a7b567ab": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/00c03f2a-baf5-4fdf-b134-01cd8b1a7b58/C440.TCGA-CG-4460-10A-01D-1158-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/1b0914c2-54f5-4d35-a185-5a027b6e3696/C440.TCGA-CG-4460-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "416fd59b-a4f8-4610-9f8b-473cb5c04a4a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/82ded128-2670-42bd-aa74-0554c4859cb0/C440.TCGA-HU-A4H6-10A-01D-A25E-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/f8297814-6e41-43ba-b5f0-239ff1626327/C440.TCGA-HU-A4H6-01A-11D-A25D-08.2_gdc_realn.bam"
+    },
+    "43f0421c-6578-4d77-9314-ef0305c7efbd": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/a94139d9-7c0b-4342-8de2-11bd135e4e63/C440.TCGA-BR-6566-10A-01D-1800-08.6_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/7508856b-eb5e-4c50-abcb-b44d302fb511/C440.TCGA-BR-6566-01A-11D-1800-08.4_gdc_realn.bam"
+    },
+    "4685dc14-1809-47ea-aba9-9bde72f6661b": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/9779e592-98e8-47bd-8a2e-3c04f112cce5/C440.TCGA-BR-8058-10A-01D-2340-08.4_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/0750f620-5926-48de-8c94-8c556430b9bb/C440.TCGA-BR-8058-01A-31D-2340-08.7_gdc_realn.bam"
+    },
+    "4bae9c20-74a4-4ad3-8cf3-76e41217f389": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/393b4c5b-88b0-4431-9d48-6ae36887a512/C440.TCGA-VQ-A923-10A-01D-A413-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/55120cbd-4ea3-4b96-a8f7-7ad7a52c7471/C440.TCGA-VQ-A923-01A-11D-A410-08.2_gdc_realn.bam"
+    },
+    "5d33895e-a959-4d5e-8850-c49c7fa49a22": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/1caae747-2479-4d0b-bd92-64fbffbed69a/C440.TCGA-HF-7133-10A-01D-2053-08.3_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/82fe3fb7-3ea1-4a09-84f0-ee7d926ff186/C440.TCGA-HF-7133-01A-11D-2053-08.1_gdc_realn.bam"
+    },
+    "62d32d19-ec93-4359-ab17-dc32e599b29a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/b73b5eee-5083-4544-9be5-b68c6473ee42/C440.TCGA-BR-8295-10A-01D-2340-08.6_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/641e03d0-85ba-4c8b-b993-f280f3b9cc79/C440.TCGA-BR-8295-01A-11D-2340-08.4_gdc_realn.bam"
+    },
+    "65232ec1-4614-49bd-a3cf-d901d4f9556a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/4344b85c-4628-4d5c-83ed-da53ec66bfae/C440.TCGA-CD-8534-10A-01D-2341-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/633db05c-28e1-422a-9525-36b648f55674/C440.TCGA-CD-8534-01A-11D-2340-08.4_gdc_realn.bam"
+    },
+    "66bca2f8-f269-454d-abe2-ce51a0704645": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/ce1ad1ac-5285-4da2-8218-eab9e0483e7a/C440.TCGA-BR-4363-11A-01D-1158-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/6ee14360-3468-4232-8f2c-5c5e975cf1b7/C440.TCGA-BR-4363-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "6c3687fd-0761-477d-95ab-73e11d66dbd6": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/fac25cc1-f874-4b79-b177-957fac21d86f/C440.TCGA-HF-7132-10A-01D-2053-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/b93ffd27-c370-4131-8b4d-de74e9144264/C440.TCGA-HF-7132-01A-11D-2053-08.2_gdc_realn.bam"
+    },
+    "6eeee564-1057-42e4-bfce-b6fe17d58d10": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/b6e34c4a-3234-4c7f-a46a-643faa1530f1/C440.TCGA-HU-A4G3-10A-01D-A24F-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/4d085dc8-f3c8-48e8-88de-121448cf3eb0/C440.TCGA-HU-A4G3-01A-11D-A24D-08.2_gdc_realn.bam"
+    },
+    "75915370-0895-4933-8875-8a31c65c3d50": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/72cb62f1-6ef8-4e89-8b78-d6d41d6992c4/C440.TCGA-HU-A4GX-10A-01D-A25E-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/91db2477-e614-4cd6-bf7e-d0730a8ba952/C440.TCGA-HU-A4GX-01A-12D-A25D-08.2_gdc_realn.bam"
+    },
+    "7861dca2-badc-4575-a388-621d3614a8e4": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/216610ef-6e5a-4835-9ce0-39a53cb41947/C440.TCGA-VQ-A91W-10A-01D-A413-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/64ece063-b398-4da3-8f9b-6c7fc0ad2b23/C440.TCGA-VQ-A91W-01A-11D-A410-08.2_gdc_realn.bam"
+    },
+    "7b0d69ca-13a6-46e0-839c-e433bbede3ad": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/0d76d030-be38-4dcf-8de6-d4232c222ce3/C440.TCGA-BR-4256-11A-01D-1126-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/f62cd966-252c-4423-86af-a3ec787bc19f/C440.TCGA-BR-4256-01A-01D-1126-08.2_gdc_realn.bam"
+    },
+    "8027adc9-4918-45f0-a7da-5767da0b999e": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/7fe3f0f6-b19a-4bbd-ae05-97dc42dfb88d/C440.TCGA-VQ-A8DT-10A-01D-A362-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/ce8cb3ea-a2fc-42ac-a849-68d77959773c/C440.TCGA-VQ-A8DT-01A-11D-A364-08.1_gdc_realn.bam"
+    },
+    "807bea1d-975a-4d01-98c5-2748d832235b": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/b54e809a-a3c4-4301-8c37-bc98c5037100/C440.TCGA-VQ-A91Y-10A-01D-A413-08.4_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/d6c66b9f-6dfc-4e56-a7e2-aacb5416ba2d/C440.TCGA-VQ-A91Y-01A-11D-A410-08.4_gdc_realn.bam"
+    },
+    "8114d553-4025-4c8f-ae02-5ed01720723a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/1623fa16-6927-41ee-b040-a842077eed05/C440.TCGA-HU-A4G9-10A-01D-A24F-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/27790dea-90bb-452b-b30d-953b991488c3/C440.TCGA-HU-A4G9-01A-11D-A24D-08.1_gdc_realn.bam"
+    },
+    "83d681f4-6c0e-45cc-a31d-0b1b31c8e073": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/7886e3ee-f38b-4e63-b8e6-8c4ecff56959/C440.TCGA-HJ-7597-10A-01D-2201-08.6_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/aa36d678-f3c3-4797-9ce6-38410a450047/C440.TCGA-HJ-7597-01A-21D-2201-08.6_gdc_realn.bam"
+    },
+    "84d32a4c-023b-4563-9eb5-e2f47818142a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/c2bcae0c-4a7f-4a72-bbe4-71b68206e1e0/C440.TCGA-BR-8683-10A-01D-2394-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/529c774d-0d4a-48f2-9a1b-2783996a7f40/C440.TCGA-BR-8683-01A-11D-2394-08.1_gdc_realn.bam"
+    },
+    "8ca597db-ac21-43d1-9329-586b2eaf6982": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/84e2fa1f-567e-4c14-90cc-f260d6b139fe/C440.TCGA-CG-4440-10A-01D-1158-08.7_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/66b46460-6a74-459c-9984-32376db27c0f/C440.TCGA-CG-4440-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "8d3e3d09-bc61-4d5e-b8d6-5aee6cb488ae": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/f1a932d7-301d-4553-b0e9-b489c884bd42/C440.TCGA-BR-7722-10A-01D-2201-08.6_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/6813c8a4-ea59-4e58-be06-8fdbd4790972/C440.TCGA-BR-7722-01A-31D-2201-08.6_gdc_realn.bam"
+    },
+    "8fccff71-3710-4cb9-b8af-61707aebe5d8": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/4b4b46a4-2022-4551-bf43-fdf9ebf11b26/C440.TCGA-CG-4442-10A-01D-1158-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/b7e52315-30cb-4f67-8711-7a788965cbdd/C440.TCGA-CG-4442-01A-01D-1158-08.8_gdc_realn.bam"
+    },
+    "9130c730-b0bc-4d3a-9ee1-09bf43d9bd67": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/e276265b-e460-4475-aed4-611ff9be1819/C440.TCGA-ZA-A8F6-10A-01D-A362-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/84b670d6-f24c-496b-9668-b097b0526e24/C440.TCGA-ZA-A8F6-01A-23D-A364-08.1_gdc_realn.bam"
+    },
+    "93a337ae-2bd3-4464-b38f-93dff92d3fde": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/b4bfc4a0-1ca8-4db0-ac4f-81e9c15b3e1b/C440.TCGA-BR-7717-10A-01D-2053-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/8fccb8e3-92ab-49c9-9465-083840af3746/C440.TCGA-BR-7717-01A-11D-2053-08.1_gdc_realn.bam"
+    },
+    "9ef7582b-d4c1-4036-a1ed-ef65aa46fc60": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/78da1a58-4c87-41f7-92f3-33835cc40848/C440.TCGA-BR-7704-10A-01D-2053-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/fe61bfb4-b612-4675-83fb-086a0fed9f71/C440.TCGA-BR-7704-01A-11D-2053-08.2_gdc_realn.bam"
+    },
+    "9f4e471e-2397-4604-b0b9-c7e0c45a5d69": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/7e5198bb-ae96-4e43-8158-0f71b203d350/C440.TCGA-BR-8285-10A-01D-2340-08.3_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/5adbd2b3-bf27-4991-a58a-d1910bdf4a77/C440.TCGA-BR-8285-01A-11D-2340-08.7_gdc_realn.bam"
+    },
+    "a873475c-b2c7-4c84-bd89-5b9ee6060ce1": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/3a1b9b37-7cbf-4e7b-8652-b2b5ebb79e4f/C440.TCGA-D7-8574-10A-01D-2341-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/fa2fba79-75a4-4722-8f23-f82f9f822a3d/C440.TCGA-D7-8574-01A-13D-2340-08.5_gdc_realn.bam"
+    },
+    "aa2c5d29-2764-4804-9181-5870c0956904": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/2da6d051-c547-4b41-94ed-26eb2ac9f031/C440.TCGA-BR-A4QL-10A-01D-A25E-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/fc1b37b8-9776-4860-aba2-924c0b4a8d09/C440.TCGA-BR-A4QL-01A-31D-A25D-08.1_gdc_realn.bam"
+    },
+    "bae3c762-d894-4742-860c-43d18659b4bc": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/c784b0f1-6d8d-4daa-92bc-f4656818def4/C440.TCGA-BR-8059-10A-01D-2340-08.6_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/7b3781a1-690e-40bb-96e7-9a93b238b12e/C440.TCGA-BR-8059-01A-11D-2340-08.3_gdc_realn.bam"
+    },
+    "c3cba26e-38c2-4569-afd6-6b045e604808": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/5f9ff484-2904-4740-86ab-52e4881a2991/C440.TCGA-F1-6177-10A-01D-1800-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/7074322d-8921-4b72-acee-fb0b941e9574/C440.TCGA-F1-6177-01A-11D-1800-08.3_gdc_realn.bam"
+    },
+    "c46ff2bb-bdd0-48cd-b2ae-7ef421b4b91a": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/fec5f20a-0edb-4088-b02b-7c3aa0a39dcb/C440.TCGA-HU-A4GP-10A-01D-A25E-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/28141dda-5f58-4990-833f-351b3eac033c/C440.TCGA-HU-A4GP-01A-11D-A25D-08.2_gdc_realn.bam"
+    },
+    "cadc555e-e350-40cf-8674-3536942f3e02": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/2ba0c1dc-35d9-4690-882d-3e18d6567a9b/C440.TCGA-BR-A4IZ-10A-01D-A25E-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/32162858-6dd0-460c-8edd-41422e7da6a6/C440.TCGA-BR-A4IZ-01A-32D-A25D-08.2_gdc_realn.bam"
+    },
+    "d807a1c0-f586-4f13-b8ef-3f79ab3d4b70": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/927317a4-7d0b-47a5-a145-5ce7281f7e32/C440.TCGA-HU-A4HD-10A-01D-A25E-08.3_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/2ccbccba-92c0-425f-8610-53fc32b07a33/C440.TCGA-HU-A4HD-01A-11D-A25D-08.2_gdc_realn.bam"
+    },
+    "e2aaabd9-f4ba-4763-a28a-c14d46a4bc5d": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/7968612e-5a22-4699-8e55-a38b860bdf1b/C440.TCGA-D7-6822-10A-01D-1882-08.6_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/5587378e-8ef9-4d20-ba51-33bffb25ec1f/C440.TCGA-D7-6822-01A-11D-1882-08.6_gdc_realn.bam"
+    },
+    "e302f643-eed3-4f07-a7fb-c32ee2031a1c": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/1bfd3223-bf4c-4674-8118-ad5fed0da0ed/C440.TCGA-HU-8249-10A-01D-2341-08.7_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/51244649-117e-4bc3-a853-c18d7aa30c7a/C440.TCGA-HU-8249-01A-11D-2340-08.4_gdc_realn.bam"
+    },
+    "e4344668-5a50-4dde-8eec-f4d7f01f99fd": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/eee605e9-1d17-40b7-890f-90551c14e2c1/C440.TCGA-D7-8573-10A-01D-2341-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/d7f9a02a-c645-41b4-8c0d-0b2a3c52b52d/C440.TCGA-D7-8573-01A-11D-2340-08.5_gdc_realn.bam"
+    },
+    "ec8268c7-943d-451a-9036-f0196078b6c5": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/c5a88883-53df-4483-8803-865839b36b65/C440.TCGA-D7-8576-10A-01D-2341-08.8_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/39bcd605-4c25-4e71-b9c5-7c85b487cd8f/C440.TCGA-D7-8576-01A-11D-2340-08.4_gdc_realn.bam"
+    },
+    "f4b1e633-38e6-4cc6-a0c6-911582d4066b": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/5e178dd2-827d-4da4-bac6-aa2b453b63c6/C440.TCGA-D7-A6F2-10A-01D-A31J-08.3_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/9cb33c5b-dd02-4696-922d-ba4e4816dcba/C440.TCGA-D7-A6F2-01A-12D-A31L-08.3_gdc_realn.bam"
+    },
+    "f76122f7-343a-4345-9fb6-e46ad0b75cb0": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/61e8bcf8-fa25-4986-bf8e-5e351dc1febb/C440.TCGA-ZQ-A9CR-10A-01D-A39A-08.2_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/d2c726e1-81c9-43c3-ba04-29cce1162c26/C440.TCGA-ZQ-A9CR-01A-11D-A397-08.2_gdc_realn.bam"
+    },
+    "fa00a6a7-d5b0-40b9-8360-d56f7db64d34": {
+        "normal": "/home/project/11001079/TCGA_germline/data/STAD/2cf4c43e-14a1-49fa-85fa-6d632f18c306/C440.TCGA-BR-8484-10A-01D-2394-08.1_gdc_realn.bam",
+        "tumor": "/home/project/11001079/TCGA_germline/data/STAD_Tumor/ab974be4-19f4-4955-b03e-37627b3e69ab/C440.TCGA-BR-8484-01A-11D-2394-08.1_gdc_realn.bam"
+    }
+}
