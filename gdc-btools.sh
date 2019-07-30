@@ -45,6 +45,22 @@ conda install -y -c bioconda muse=1.0.rc
 ### dbSNP ver. 144
 wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/
 
+cd -
+mkdir cosmic-files
+cd cosmic-files
+
+### Cosmic.vcf - Catalogue Of Somatic Mutations In Cancer
+### Make account here: https://cancer.sanger.ac.uk/cosmic
+### Follow scripted directions to download vcf files for coding and non-coding mutations
+### https://cancer.sanger.ac.uk/cosmic/file_download_info?data=GRCh38%2Fcosmic%2Fv89%2FVCF%2FCosmicCodingMuts.vcf.gz
+### https://cancer.sanger.ac.uk/cosmic/file_download_info?data=GRCh38%2Fcosmic%2Fv89%2FVCF%2FCosmicNonCodingVariants.vcf.gz
+
+### Combining Cosmic vcf files
+conda install -c bioconda vcftools
+
+vcf-concat CosmicCodingMuts.vcf.gz CosmicNonCodingVariants.vcf.gz | gzip -c  > CosmicCoding.vcf.gz
+
+vcf-sort > CosmicCoding.vcf.gz
 
 cd -
 mkdir references
@@ -57,3 +73,8 @@ tar xvf GRCh38.d1.vd1.fa.tar.gz
 ### indexed reference genome - GRCh38.d1.vd1_BWA
 wget https://api.gdc.cancer.gov/data/25217ec9-af07-4a17-8db9-101271ee7225 -O GRCh38.d1.vd1_BWA.tar.gz
 tar xvf GRCh38.d1.vd1_BWA.tar.gz
+
+### creating index (fai) and dictionary (dict) files
+samtools faidx GRCh38.d1.vd1.fa
+
+java -jar picard.jar CreateSequenceDictionary R= GRCh38.d1.vd1.fa  O= GRCh38.d1.vd1.dict
