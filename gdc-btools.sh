@@ -5,8 +5,12 @@ cd "$dir"
 conda create --name gdc
 source activate gdc
 
-### biobambam ver. 2.0.57
-conda install -y -c bioconda biobambam=2.0.57
+### biobambam ver. 2.0.57 - version causes segmentation faults when converting file with multiple readgroups
+#conda install -y -c bioconda biobambam=2.0.57
+
+### biobambam ver. 2.0.87 -updated to most recent version
+conda install -y -c bioconda biobambam=2.0.87
+
 ### bwa ver. 0.7.15
 conda install -y -c bioconda  bwa=0.7.15
 ### samtools ver. 1.1
@@ -42,8 +46,20 @@ conda install -y -c bioconda muse=1.0.rc
 #conda install -y -c bioconda gatk=3.5
 
 
-### dbSNP ver. 144
-wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/
+### dbSNP ver. 144 - currently does not work
+#wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/
+
+### alternative to dbSNP currently being used
+wget ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606/VCF/GATK/common_all_20180418.vcf.gz
+
+### bcftools
+conda install -c bioconda bcftools tabix
+
+### tool for bgzipping alternative dbSNP file
+bcftools view common_all_20180418.vcf -Oz -o common_all_20180418.vcf.gz
+tabix common_all_20180418.vcf.gz
+add common
+
 
 cd -
 mkdir cosmic-files
