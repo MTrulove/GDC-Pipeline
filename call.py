@@ -8,30 +8,17 @@ from parsl.app.app import bash_app
 
 from swag.core.readgroups import make_readgroup_dict
 
-import apps
+from apps import somaticsniper, muse, varscan, mutect2
 from aspire import config
 # from parsl.configs.local_threads import config
-# from local import config
 
-output_dir = 'analysis-v14'
-reference = '/home/projects/11001079/anna/GDC-Pipeline/references/GRCh38.d1.vd1.fa'
-known_sites = '/home/projects/11001079/anna/GDC-Pipeline/common_all_20180418.vcf.gz'
+output_dir = 'analysis-v20'
+reference = '/ime/users/industry/chicago-university/woodard/references/GRCh38.d1.vd1.fa'
+known_sites = '/ime/users/industry/chicago-university/woodard/common_all_20180418.vcf.gz'
+normal_panel = '/ime/users/industry/chicago-university/woodard/MuTect2.PON.4136.vcf.gz'
 config.run_dir = os.path.join(output_dir, 'runinfo')
 
-# db = sqlite3.connect('data.db')
-# db.execute("""create table if not exists data(
-#     output_dir text,
-#     start int,
-#     end int,
-#     caller,
-#     patient,
-#     tumor_size,
-#     normal_size
-#     )""")
-# db.commit()
-# db.close()
-
-with open('data.json') as f:
+with open('ime.data.json') as f:
     data = json.load(f)
 
 with open('executables.json') as f:
@@ -44,31 +31,40 @@ parsl.set_stream_logger()
 parsl.load(config)
 
 for patient, bams in data.items():
-    apps.somaticsniper(
-            executables, 
-            reference,
-            bams['normal'],
-            bams['tumor'],
-            os.path.abspath(output_dir),
-            label='{}-somaticsniper'.format(patient)
+    somaticsniper(
+        executables,
+        reference,
+        bams['normal'],
+        bams['tumor'],
+        os.path.abspath(output_dir),
+        label='{}-somaticsniper'.format(patient)
     )
-    # apps.muse(
-    #         executables, 
-    #         reference,
-    #         bams['normal'],
-    #         bams['tumor'],
-    #         known_sites,
-    #         os.path.abspath(output_dir),
-    #         label='{}-muse'.format(patient)
-    # )
+    muse(
+        executables,
+        reference,
+        bams['normal'],
+        bams['tumor'],
+        known_sites,
+        os.path.abspath(output_dir),
+        label='{}-muse'.format(patient)
+    )
+    varscan(
+        executables,
+        reference,
+        bams['normal'],
+        bams['tumor'],
+        os.path.abspath(output_dir),
+        label='{}-varscan'.format(patient)
+    )
+    mutect2(
+        executables,
+        reference,
+        bams['normal'],
+        bams['tumor'],
+        os.path.abspath(output_dir),
+        normal_panel,
+        known_sites,
+        label='{}-mutect2'.format(patient),
+    )
 
-    # apps.varscan(
-    #     executables, 
-    #     reference,
-    #     bams['normal'],
-    #     bams['tumor'],
-    #     os.path.abspath(output_dir),
-    #     label='{}-varscan'.format(patient)
-    # )
-
-parsl.wait_for_current_tasks()         
+parsl.wait_for_current_tasks()

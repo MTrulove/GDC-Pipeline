@@ -18,25 +18,31 @@ from parsl.providers import PBSProProvider
 from parsl.launchers import MpiRunLauncher
 from parsl.config import Config
 from parsl.executors import HighThroughputExecutor
-from parsl.addresses import address_by_hostname, address_by_interface
+from parsl.addresses import address_by_interface
 from parsl.monitoring.monitoring import MonitoringHub
 import logging
 
+# long queue
+# nodes = 1
+# walltime = '120:00:00'
+# max_blocks = 1
+
 # debug queue
-nodes = 2
-walltime ='02:00:00'
-max_blocks = 1
+# nodes = 2
+# walltime ='02:00:00'
+# max_blocks = 1
 
 # medium queue
-nodes = 8
-walltime ='24:00:00'
-max_blocks = 1
+nodes = 4
+walltime = '24:00:00'
+max_blocks = 3
+
 
 config = Config(
     executors=[
         HighThroughputExecutor(
             label="htex",
-            cores_per_worker=1,
+            cores_per_worker=3,
             address=address_by_interface('ib0'),
             provider=PBSProProvider(
                 launcher=MpiRunLauncher(),
