@@ -9,8 +9,6 @@ from swag.core.readgroups import make_readgroup_dict
 
 import apps
 from aspire import config
-# from parsl.configs.local_threads import config
-from local import config
 
 output_dir = 'analysis-v9'
 reference = '/home/projects/11001079/anna/GDC-Pipeline/references/GRCh38.d1.vd1.fa'
@@ -32,7 +30,6 @@ parsl.load(config)
 
 
 for patient, bams in data.items():
-# for patient, bams in list(data.items())[:1]:
     merged_bams = {}
     for tissue in ['tumor', 'normal']:
         read_groups = make_readgroup_dict(bams[tissue], executables['samtools'])
